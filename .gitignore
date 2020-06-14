@@ -474,6 +474,7 @@ venv.bak/
 
 cloud_sql_proxy
 document_ocr/__pycache__/*
+ document_ocr/document_ocr/__pycache__/*
 user_dashboard/__pycache__/*
 utilities/core_utils/__pycache__/*
 licence/__pycache__/*

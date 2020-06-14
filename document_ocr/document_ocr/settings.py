@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
@@ -25,12 +26,13 @@ SECRET_KEY = 'eu^m-1wpp&st$g9^o(!n7dmoew2e!)4(ulygq)%(n8r56xb6wn'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'kyc',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
